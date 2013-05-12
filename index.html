@@ -1,0 +1,680 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://ogp.me/ns#">
+  <head>
+
+
+    <meta charset="utf-8" />
+
+    <title>TEDxDePaulU &middot; An independently organized TEDx event for DePaul University</title>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Independently organized TEDx event for DePaul University in Chicago." />
+    <meta name="keywords" content="Chicago, TED, TEDx, Conference, Chicago, DePaul, TEDxDePaul, tedxdepaulu, TEDxDePaulU, event, events, conferences, DePaul University, TEDx depaul, tedx depaul 2012, tedx depaul university, tedx depaul 2013, ted depaul, tedx depaul, creators and curator, teddepaulu,teds conference at depaul university, theater">    
+
+    <meta name="author" content="">
+
+     <meta name="og:title" content="TEDxDePaulU, an indepently organized event for DePaul University" />
+    <meta name="og:url" content="http://tedxdepaulu.com" />
+    <meta name="og:image" content="img/TEDxDePaulU-logo-blacksq.jpg" />
+    <meta property="og:image:secure_url" content="/img/TEDxDePaulU-logo-blacksq.jpg" />
+    <meta name="og:site_name" content="TEDxDePaulU, an independently organized event for DePaul University." />
+    <meta property="og:image:width" content="240" />
+    <meta property="og:image:height" content="240" />
+    <meta name="og:description" content="TEDxDePaulU, an independently organized event for DePaul University." />
+
+
+    <!-- DEM ICONS -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <!-- Le styles -->
+    
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/swing.css" rel="stylesheet">
+    <style>
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+    /* Padding below the footer and lighter body text */
+
+    body {
+      padding-bottom: 40px;
+      color: #5a5a5a;
+    }
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Special class on .container surrounding .navbar, used for positioning it into place. */
+    .navbar-wrapper {
+      position: relative;
+      z-index: 10;
+      margin-top: 20px;
+      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+    }
+
+    /* Remove border and change up box shadow for more contrast */
+    .navbar .navbar-inner {
+      border: 0;
+      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+              box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    }
+
+    /* Downsize the brand/project name a bit */
+    .navbar .brand {
+      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
+      font-size: 16px;
+      font-weight: bold;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
+    }
+
+    /* Navbar links: increase padding for taller navbar */
+    .navbar .nav > li > a {
+      padding: 15px 20px;
+    }
+
+    /* Offset the responsive button for proper vertical alignment */
+    .navbar .btn-navbar {
+      margin-top: 10px;
+    }
+
+
+
+    /* CUSTOMIZE THE NAVBAR
+    -------------------------------------------------- */
+
+    /* Carousel base class */
+    .carousel {
+      margin-bottom: 60px;
+    }
+
+    .carousel .container {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .carousel-control {
+  position: absolute;
+  top: 40%;
+  left: 15px;
+  width: 40px;
+  height: 40px;
+  margin-top: -20px;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 30px;
+  color: #ffffff;
+  text-align: center;
+  background: #222222;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 23px;
+     -moz-border-radius: 23px;
+          border-radius: 23px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      min-width: 100%;
+      height: 500px;
+    }
+
+    .carousel-caption {
+      background-color: transparent;
+      position: static;
+      max-width: 550px;
+      padding: 0 20px;
+      margin-bottom: 100px;
+    }
+    .carousel-caption h1,
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #fff;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+    }
+    .carousel-caption .btn {
+      margin-top: 10px;
+    }
+
+
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+     .heart {color:#FF2B06}
+
+     #clear-image img {
+      width: auto;
+      min-width: 100%;
+      height: auto;}
+
+    .video-container { position: relative; /* keeps the aspect ratio */ padding-bottom: 56.25%; /* fine tunes the video positioning */ padding-top: 60px; overflow: hidden;
+    }
+
+    .video-container iframe,
+    .video-container object,
+    .video-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+    }
+
+    .magic:hover {opacity: 0.9;
+  filter: alpha(opacity=90);}
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 767px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel 
+       {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-bottom: 40px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+      .input {padding: 4px 12px;}
+
+    }
+
+    @font-face {
+  font-family: 'Playfair Display SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display SC'), local('PlayfairDisplaySC-Regular'), url(http://themes.googleusercontent.com/static/fonts/playfairdisplaysc/v1/G0-tvBxd4eQRdwFKB8dRkVlh8gX0fYUx8Fvl7GxtXlc.woff) format('woff');
+}
+
+.amber {
+font-weight: normal;
+font-family: 'Playfair Display SC', serif;
+}
+
+
+
+
+    </style>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="shortcut icon" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="">
+    <link rel="apple-touch-icon-precomposed" href="">
+  </head>
+
+  <body>
+
+
+
+    <!-- NAVBAR
+    ================================================== -->
+    <!-- Wrap the .navbar in .container to center it on the page and provide easy way to target it with .navbar-wrapper. -->
+    <div class="container navbar-wrapper">
+
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
+          <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">TEDxDePaulU</a>
+          <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#TEDx">About</a></li>
+              <li><a href="http://tedxdepaulu.tumblr.com/">Blog</a></li>
+              <li><a href="http://twitter.com/TEDxDePaulU">Twitter</a></li>
+              <li><a href="http://facebook.com/TEDxDePaulU">Facebook</a></li>
+              <li><a href="mailto:TEDxDePaul@gmail.com">Contact</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div><!-- /.navbar-inner -->
+      </div><!-- /.navbar -->
+
+    </div><!-- /.container -->
+
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+          <div class="item active">
+          <img src="img/2013.jpg" alt="">
+          <div class="container">
+            <div class="carousel-caption">
+              <div id="clear-image">
+              <img src="img/TEDx_.png">
+              </div>
+              <p class="lead">We're back, now bigger than ever. Amazing venue and a great line-up of speakers. Look forward to a day full of ideas.</p>
+              <a class="btn btn-large btn-primary animated bounceIn" href="http://2013.tedxdepaulu.com/">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/2012.jpg" alt="What can we do?">
+          <div class="container">
+            <div class="carousel-caption">
+              <div id="clear-image">
+              <img src="img/TEDx_.png">
+              </div>
+              <p class="lead">In 2012, for the first time in DePaul University's history, we brought together some of the brightest minds to explore our TEDx theme: "What can we do?".</p>
+              <a class="btn btn-large btn-primary" href="http://www.youtube.com/playlist?list=PLA6C8C634EE63DA65">Watch videos</a>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="img/city.jpg" alt="City 2.0">
+          <div class="container">
+            <div class="carousel-caption">
+              <div id="clear-image">
+              <img src="img/TEDx_.png">
+              </div>
+              <p class="lead">For one day only, the TEDx platform harnessed the power of people across the globe and encouraged them to host a TEDx event themed "City 2.0" event.</p>
+              <a class="btn btn-large btn-primary" href="http://www.youtube.com/playlist?list=PLsRNoUx8w3rPoTCCP64o0MQTnK7LXJ865">Watch videos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div><!-- /.carousel -->
+
+<!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- START THE FEATURETTES -->
+
+      <div class="featurette">
+
+        <img class="featurette-image pull-right" src="img/mca-sticker-green.png">
+        <h2 class="featurette-heading">TEDxDePaulU 2013 <span class="muted">Creators &amp; Curators</span></h2>
+        <p class="lead">Get ready for an event highlighting the brightest and best ideas. We'll bring together a handful of the best visionaries to share stories on how to initiate change, promote innovation, build businesses, and put ideas into action.</p>
+
+        <div class="row">
+        <div class="span5">
+        <div class="well">
+        <h2><a href="http://goo.gl/maps/hohWO">Edlis Neeson Theater at MCA Chicago</a></h2>
+
+        <p class="lead">The state-of-the-art 300-seat space features elegant oak-paneled walls and tiered seating which ensures that everyone has the best seat in the house.</p>
+        
+        </div>
+
+         <p>Tickets are now sold out for <a href="http://www.ted.com/tedx/events/6748">TEDxDePaulU 2013</a>.</p>
+
+
+         <!-- Begin MailChimp Signup Form -->
+
+          <form action="http://TEDxDepaulU.us4.list-manage2.com/subscribe/post?u=892f49391328d42994c1d2c17&amp;id=8e7f33a3b6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          
+
+          <div class="input-append">
+          <input type="email" name="EMAIL" class="required email span3" id="mce-EMAIL" placeholder="Email" id="appendedInputButton" type="text">
+           <button input type="submit" value="Get notified" name="subscribe" id="mc-embedded-subscribe" class="btn btn-inverse" type="button"><i class="icon-envelope icon-white"></i> Get notified</button>
+        </div>
+
+        <span class="hint  hint--bottom">
+          <!--responses-->
+          <div id="mce-responses" class="clear">
+            <div class="response" id="mce-error-response" style="display:none"></div>
+            <div class="response" id="mce-success-response" style="display:none"></div>
+          </div>  
+          
+          </form>
+        
+      </div>
+
+      
+    </div>
+
+
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-left" src="img/city_event.png">
+        <h2 class="featurette-heading">TEDxCity2.0: <br><span class="muted">A day of urban inspiration</span></h2>
+        <p class="lead">In 2012, for the first time ever, the TED Prize went not to an individual, but to an idea on which our planet's future depends: <a href="http://www.thecity2.org/">the City 2.0</a>.</p>
+
+         <p class="lead"><b>Lee Fisher</b> <a href="http://youtu.be/YP4ZA50A3mQ">Want to Change the World? Start with Your City</a></p>
+
+          <p class="lead"><b>Randall Blankenhorn</b> <a href="http://youtu.be/kshjm6Uxwfc">GO TO 2040</a></p>
+
+          <p><a class="lead" href="http://www.youtube.com/playlist?list=PLsRNoUx8w3rPoTCCP64o0MQTnK7LXJ865">TEDxDePaulU City2.0 Playlist &raquo;</a></p>
+
+
+        <div class="row">
+        <div class="span6 offset6">
+
+
+
+        </div>
+      </div>
+
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <img class="featurette-image pull-right" src="img/speaker2012.png">
+        <h2 class="featurette-heading">TEDxDePaulU 2012 <br><span class="muted">What can we do?</span></h2>
+        <p class="lead">For the first time in DePaul University's history, we brought together some of the brightest minds to exlpore our TEDx theme: <a href="http://www.ted.com/tedx/events/3600">"What can we do?"</a>.</p>
+
+        <p class="lead"><b>Miriam Zoila Perez</b> <a href="http://youtu.be/YCsIhuR5fqU">Transforming Empathy</a>
+
+        <p class="lead"><b>Orion Haas</b> <a href="http://youtu.be/Cujgzj3lFks">We Can Be Effective Volunteers Abroad</a>
+
+        <p class="lead"><b>Daniel Wordsworth</b> <a href="http://tedxtalks.ted.com/video/TEDxDePaulU-Daniel-Wordsworth-O">On Being Human</a>
+
+        <p class="lead"><b>Eric Mata</b> <a href="http://tedxtalks.ted.com/video/TEDxDePaulU-Eric-Mata-Against-M">Against Me(n)</a>
+
+        <p class="lead"><b>Jim Sweitzer</b> <a href="http://tedxtalks.ted.com/video/TEDxDePaulU-Jim-Sweitzer-A-Ray">A Ray of Hope</a>
+
+        <p class="lead"><b>Libby Hurley</b> <a href="http://tedxtalks.ted.com/video/TEDxDePaulU-Libby-Hurley-Wade-I">Wade Into The Water</a>
+
+         <p class="lead"><b>Katie Redford</b> <a href="http://youtu.be/yILMYWUT2pg">What Makes Us Human</a>
+
+        <p class="lead"><b>Shital Chauhan</b> <a href="http://tedxtalks.ted.com/video/TEDxDePaulU-Shital-Chauhan-Who">Who Needs To Be An Expert?</a>
+
+        <p><a class="lead" href="http://www.youtube.com/playlist?list=PLA6C8C634EE63DA65">TEDxDePaulU 2012 Playlist &raquo;</a></p>
+
+      </div>
+
+
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="span10 offset1">
+          <h2 id="TEDx">About TEDx, x = independently organized event</h2>
+          <p>In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TEDTalks video and live speakers combine to spark deep discussion and connection in a small group. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject to certain rules and regulations.)</p>
+          <br>
+
+          <div class="row">
+          <div class="span6 offset2">
+          <div class="video-container">
+          <iframe width="640" height="360" max-height="300" src="http://www.youtube.com/embed/WUBjn3Su2QU" frameborder="0" allowfullscreen></iframe>
+          </div>
+          </div>
+          </div>
+
+          <br>
+          <h2>About TED</h2>
+          <p>TED is a nonprofit organization devoted to Ideas Worth Spreading. Started as a four-day conference in California 26 years ago, TED has grown to support those world-changing ideas with multiple initiatives. At TED, the world's leading thinkers and doers are asked to give the talk of their lives in 18 minutes. Talks are then made available, free, at TED.com. TED speakers have included Bill Gates, Jane Goodall, Elizabeth Gilbert, Sir Richard Branson, Benoit Mandelbrot, Philippe Starck, Ngozi Okonjo-Iweala, Isabel Allende and former UK Prime Minister Gordon Brown. Two major TED events are held each year: The TED Conference takes place every spring in Long Beach, California (along with a parallel conference, TEDActive, in Palm Springs), and TEDGlobal is held each summer in Edinburgh, Scotland.</p>
+          <p>TED's media initiatives include TED.com, where new TEDTalks are posted daily; the new TED Conversations, enabling broad conversations among TED fans; and the Open Translation Project, which provides subtitles and interactive transcripts as well as the ability for any TEDTalk to be translated by volunteers worldwide.</p>
+          <p>TED has established the annual TED Prize, where exceptional individuals with a wish to change the world are given the opportunity to put their wishes into action; TEDx, which offers individuals or groups a way to host local, self-organized events around the world; and the TED Fellows program, helping world-changing innovators from around the globe to become part of the TED community and, with its help, amplify the impact of their remarkable projects and activities.</p>
+          <p>For information about TED's upcoming conferences, visit <a href="http://www.ted.com/registration" title="http://www.ted.com/registration">http://www.ted.com/registration</a></p>
+          <br>
+
+          <h2><a name="Curators"></a>Curators</h2>
+
+          </div><!-- /.span12 -->
+
+          <div class="row">
+          <div class="span4 offset2">
+
+            <a href="https://twitter.com/mtthlbg"><img class="img-circle magic" src="img/matt_stock.png"></a>
+
+            <h3>Matt Helbig</h3>
+
+              <!-- Button to trigger modal -->
+    <a href="#myModal" data-toggle="modal" role="button" class="btn btn-link">Thing maker and pixelworker.</a>
+ 
+<!-- Modal -->
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Matt Helbig</h3>
+  </div>
+  <div class="modal-body">
+    <p><b>Matt</b> is currently a Senior Undergrad at DePaul pursuing a Business Management major.</p>
+
+    <p>He has been involved in the startup space in both Chicago and San Francisco; working for funded companies such as Square Inc., Cloudbot, and Azadi.</p>
+
+    <p>Follow him at <a href="https://twitter.com/mtthlbg">@mtthlbg</a>.
+
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
+
+          </div>
+
+
+          <div class="span4">
+            <a href="https://twitter.com/DapperDrDaniel"><img class="img-circle magic" src="img/dan_stock.jpg"></a>
+            <h3>Daniel Gurevich</h3>
+
+            <!-- Button to trigger modal -->
+    <a href="#myModal2" data-toggle="modal" role="button" class="btn btn-link">Lover of life.</a>
+ 
+<!-- Modal -->
+    <div id="myModal2" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Daniel Gurevich</h3>
+  </div>
+  <div class="modal-body">
+    <p>As a well-traveled Sophomore Undergrad at DePaul University, <b>Daniel</b> is pursuing a bachelor degree in Finance. His past work with student organizations and non-profits has paved the way for his involment in event organization.</p>
+
+    <p>Follow him at <a href="https://twitter.com/DapperDrDaniel">@DapperDrDaniel</a>.
+
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
+
+          </div>
+        </div>
+
+      </div><!-- /.row -->
+
+      <br>
+      <br>
+
+
+      
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+
+        <p>
+
+        This independent TEDx event is operated under license from TED.
+
+        </p>
+
+      <p>
+
+        <h6>Made with <span class="heart">&nbsp;❤&nbsp;</span> in The Midwest</h6>
+
+        </p>
+
+      </footer>
+
+    </div><!-- /.container -->
+
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
+
+      <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32634861-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  
+  </body>
+</html>
